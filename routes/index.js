@@ -15,6 +15,7 @@ var router = express.Router()
 // edit yongkiC_branch aaa
 // edit yongkiC_A_branch aaa
 // hanbi_A_branch AAA
+// hanbi_B_A_branch
 router.get("/", function(req, res, next) {
   res.render("index", { title: "Express" })
 })
