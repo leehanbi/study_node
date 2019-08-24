@@ -7,6 +7,8 @@ var router = express.Router()
 // test hanbi my name is hanbi aaa commit
 // a_a_branch
 // test c_branch aaaa
+// 3
+// 2
 // 5
 router.get("/", function(req, res, next) {
   res.render("index", { title: "Express" })
